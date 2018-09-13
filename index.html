@@ -4,11 +4,13 @@
   <head>
     <meta charset="UTF-8">
     <title>My First CRUD App</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous"
+            ></script>
+
     <script src="app.js"></script>
 
   </head>
@@ -19,7 +21,16 @@
 
   <button class="add-text-btn">add text</button>
   <button class="del-text-btn">delete text</button>
+  <button class="del-all-text-btn">delete all</button>
+  <select>
+    <option value="white" selected>White</option>
+    <option value="yellow">Yellow</option>
+    <option value="lightblue">Blue</option>
+    <option value="pink">Pink</option>
+    <option value="lightgreen">Green</option>
+  </select>
 
   <div class="display"></div>
+  <script src="https://momentjs.com/downloads/moment.js""></script>
   </body>
 </html>
